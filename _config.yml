@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Jared Woytas"
   avatar           : "/assets/images/profile.png"
-  bio              : "I am an **amazing** person."
+  bio              : "Always learning new things"
   location         : "St. Albert, Alberta"
   email            : "jwoytas@gmail.com"
   links:
@@ -110,13 +110,13 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/jwoytas"
+      #url: "https://facebook.com/jwoytas"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jwoytas"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/queeypooey/"
+      #url: "https://www.instagram.com/queeypooey/"
 
 # Site Footer
 footer:
@@ -275,7 +275,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      show_date: true
+      read_time: #true
       comments: # true
-      share: true
-      related: true
+      share: #true
+      related: #true
